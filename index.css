@@ -1,0 +1,124 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: teal;
+  color: white;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* 3주차 */
+  margin: 0; /* 스크롤 바 지우기 */
+}
+
+.container {
+  width: 23rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  /* 3주차 */
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-address {
+  font-size: 0.8rem;
+}
+
+hr {
+  border: solid 1px white;
+  /* 3주차 */
+  margin: 1.3rem 0 1.3rem 0;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.job {
+  font-size: 0.9rem;
+}
+
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container {
+  /* 3주차 */
+  position: relative;
+  margin: 2rem 0 2rem 0;
+}
+
+.profile-img-container {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact {
+  width: 6.5rem;
+  height: 6.5rem;
+  background-color: #ffe300;
+  border-radius: 70%;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* 3주차 */
+  position: absolute;
+  right: 0;
+  bottom: -1.5rem;
+}
+
+.contact i {
+  /* 3주차 */
+  margin-bottom: 0.5rem;
+}
+
+.introduction-container hr {
+  width: 15px;
+}
+
+.introduction {
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tags {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 3rem 0;
+}
+
+video {
+  /* 3주차 */
+  /* 컨테이너 크기로 사이즈 맞추기 */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
